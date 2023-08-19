@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "pollster/wsgi.py",
-      "user": "@vercel/python",
+      "builds": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "3.9" }
     }
   ],
